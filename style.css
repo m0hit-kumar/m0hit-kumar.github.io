@@ -86,3 +86,7 @@ quote {
   text-decoration: none;
   color: black;
 }
+
+.page {
+  hight: 300px !important;
+}
