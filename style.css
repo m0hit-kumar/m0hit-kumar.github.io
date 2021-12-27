@@ -1,8 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 @font-face {
   font-family: Anurati;
@@ -12,6 +7,14 @@
   font-family: Cinzel;
   src: url("/portfolio/Cinzel-VariableFont_wght.ttf");
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 body {
   background: #12202f;
 }
