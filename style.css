@@ -54,6 +54,8 @@ body {
 }
 .name {
   font-family: AQ "Cinzel";
+  font-size: 37px;
+  padding-top:20px;
 }
 .subtitle {
   font-size: 15px;
