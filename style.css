@@ -19,9 +19,10 @@ body {
   background: #12202f;
 }
 .pages {
-    padding: 30px;
     width: 100%;
     height: 100%;
+      padding: 30px;
+
 }
 
 .row {
