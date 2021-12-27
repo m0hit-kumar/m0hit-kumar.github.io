@@ -18,11 +18,12 @@
 body {
   background: #12202f;
 }
-
 .pages {
-  width: 100%;
-  height: 100%;
+    padding: 33px;
+    width: 100%;
+    height: 100%;
 }
+
 .row {
   width: 80%;
   display: flex;
