@@ -40,10 +40,10 @@ body {
   font-size: 12px;
   text-align: center;
   background-color: #075697;
-  color: white;
+  color: #f6f6f6;
 }
 .container {
-  background: white;
+  background: #f6f6f6;
   width: 90%;
   text-align: center;
 }
