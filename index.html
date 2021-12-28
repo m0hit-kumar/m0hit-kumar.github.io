@@ -13,14 +13,14 @@
         <div class="pages">
             <div class="row">
                 <div class="column items">
-                    <h1 class="card" data-number="1">About</h1>
-                    <h1 class="card" data-number="2">Education<h1>
-                            <h1 class="card" data-number="3">MY Work</h1>
-                            <h1 class="card" data-number="4">Contact</h1>
+                    <h1 class="card" onclick="openTab('tab','about')">About</h1>
+                    <h1 class="card" onclick="openTab('tab','edu')">Education<h1>
+                            <h1 class="card" onclick="openTab('tab','mywork')">MY Work</h1>
+                            <h1 class="card" onclick="openTab('tab','contact')">Contact</h1>
                 </div>
 
                 <div class="container">
-                    <section class="column page card-1">
+                    <section class="column  tab about">
 
                         <h1 class="name">Mohit Kumar</h1>
                         <h5 class="subtitle">Developer
@@ -86,7 +86,7 @@
                         </div>
 
                     </section>
-                    <section class="column card-2" style="display: none">
+                    <section class="column tab edu hide">
 
                         <h1 class="name">Mohit Kumar2</h1>
                         <h3>Developer
@@ -106,7 +106,7 @@
                         </h6>
 
                     </section>
-                    <section class="column card-3" style="display: none">
+                    <section class="column tab mywork hide">
 
                         <h1 class="name">Mohit Kumar3</h1>
                         <h3>Developer
@@ -126,7 +126,7 @@
                         </h6>
 
                     </section>
-                    <section class="column card-4" style="display: none">
+                    <section class="column tab contact hide">
 
                         <h1 class="name">Mohit Kumar4</h1>
                         <h3>Developer
@@ -145,7 +145,8 @@
 
 
 
-        <script type="text/javascript">
+        <script src="js/switchPages.js"></script>
+        <!-- <script type="text/javascript">
 
             const items = document.querySelector('.items');
             items.addEventListener('click', (e) => {
@@ -166,8 +167,8 @@
             })
 
 
-        </script>
-        <script type="text/javascript">
+        </script> -->
+        <!-- <script type="text/javascript">
             var vglnk = { key: 'd50741da54509115ec6816ecacd2746e' };
             (function (d, t) {
                 var s = d.createElement(t);
@@ -177,7 +178,7 @@
                 var r = d.getElementsByTagName(t)[0];
                 r.parentNode.insertBefore(s, r);
             }(document, 'script'));
-        </script>
+        </script> -->
     </body>
 
 </html>
