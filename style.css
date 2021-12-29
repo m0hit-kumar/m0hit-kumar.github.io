@@ -28,6 +28,7 @@ body {
   margin: auto;
   flex-direction: row;
 }
+
 .column {
   display: flex;
   flex-direction: column;
@@ -104,6 +105,16 @@ h1.card {
 }
 .items h1:active {
   background: #064d86;
+}
+.items h1:hover {
+  background: #064d86;
+
+  transform: scale(1.1, 1.1);
+  box-shadow: 10px 10px 91px 0px rgba(193, 79, 82, 1);
+  /* z-index: 9999; */
+  border-right: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
 }
 .select {
   background: #064d86;

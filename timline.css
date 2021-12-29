@@ -64,26 +64,35 @@
   background: #125688;
 }
 
+.mywork {
+  height: 800px;
+}
 .projects {
+  padding: 30px;
   display: grid;
   grid-template-areas: "proj1 proj2 proj3" "proj4 proj5 proj6";
   margin: 4px;
+  row-gap: 10px;
+  align-items: center;
 }
 
 .projects > div {
-  margin: 0px;
   padding: 40px;
-  /* height: 80px;
-  width: 80px; */
-  box-shadow: 2px 2px 2px 2px black;
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  box-shadow: 4px 4px 2px 2px black;
   color: white;
   margin: 2px;
 }
 
-/* .projects > div:nth-child(2n) {
-  background-color: blue;
-} */
-
-/* .project:hover {
-  transform: translate3d(0, 0rem, -5rem);
-} */
+.project:hover {
+  transform: scale(1.1, 1.1);
+  box-shadow: 10px 10px 91px 0px rgba(193, 79, 82, 1);
+  /* z-index: 9999; */
+  border-right: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+  /* background-color: #fff; */
+  color: #000;
+}
