@@ -1,15 +1,17 @@
 function openTab(tabtype, tabName) {
   var i, tabs;
-
+  var selecetd = document.getElementById("items");
+  // console.log(selecetd);
   tabs = document.getElementsByClassName(tabtype);
   for (i = 0; i < tabs.length; i++) {
-    console.log(tabs[i].classList);
+    console.log(selecetd);
 
     if (tabs[i].classList.contains(tabName)) {
       tabs[i].classList.remove("hide");
+      // selected[i].classList.add("select");
     } else {
       tabs[i].classList.add("hide");
-      console.log("jhjhv");
+      // selected[i].classList.remove("select");
     }
   }
 }

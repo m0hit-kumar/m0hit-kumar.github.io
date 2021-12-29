@@ -1,0 +1,75 @@
+/* .edu {
+  background: purple;
+  height: 10vh;
+  margin: 0;
+  padding: 40px;
+  display: grid;
+}
+.projects {
+  display: flex;
+  padding: 0;
+}
+.project {
+  background: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 4px 4px 12px 2px;
+  display: grid;
+  grid-template-columns: 182px;
+  grid-template-rows: 130px 126px 12px;
+  grid-template-areas: "image" "text" "stats";
+}
+.project:not(:first-child) {
+  margin-left: -2rem;
+}
+.project:hover {
+  transform: translateY(-1rem);
+}
+
+.project:hover ~ .project {
+  transform: translateX(2rem);
+} */
+/* 
+.mywork {
+  background: purple;
+} */
+.gallery {
+  width: 100%;
+  /* background: purple !important; */
+  height: 100px;
+}
+
+.proj1 {
+  grid-area: proj1;
+}
+.proj2 {
+  grid-area: proj2;
+}
+.proj3 {
+  grid-area: proj3;
+}
+.proj4 {
+  grid-area: proj4;
+}
+.proj5 {
+  grid-area: proj5;
+}
+.proj6 {
+  grid-area: proj6;
+}
+
+.projects {
+  display: grid;
+  grid-template-areas: "proj1 proj2 proj3" "proj4 proj5 proj6";
+}
+
+.projects > div {
+  margin: 0px;
+  padding: 20px;
+  /* background: w; */
+  box-shadow: 2px 2px 2px 2px;
+}
+
+.projects > div:nth-child(2n) {
+  background-color: orange;
+}
