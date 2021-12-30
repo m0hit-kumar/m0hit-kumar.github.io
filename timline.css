@@ -71,9 +71,10 @@
   padding: 30px;
   display: grid;
   grid-template-areas: "proj1 proj2 proj3" "proj4 proj5 proj6";
-  margin: 4px;
+  /* margin: 4px; */
   row-gap: 10px;
-  align-items: center;
+  column-gap: 10px;
+  /* align-items: center; */
 }
 
 .projects > div {
@@ -90,9 +91,71 @@
   transform: scale(1.1, 1.1);
   box-shadow: 10px 10px 91px 0px rgba(193, 79, 82, 1);
   /* z-index: 9999; */
+  /* display: hide; */
   border-right: 1px solid transparent;
   border-bottom: 1px solid transparent;
-  cursor: pointer;
+  /* cursor: pointer; */
+  cursor: url("/github.png"), auto;
   /* background-color: #fff; */
-  color: #000;
+  /* color: #000; */
+}
+
+/* .mywork .project-head {
+  font-family: sans-serif;
+  width: 680px;
+  font-size: 2.25rem; */
+/* margin: 60px auto 0; */
+/* word-wrap: break-word; */
+/* position: relative;
+} */
+
+.project {
+  font-family: sans-serif;
+  margin-bottom: 9px;
+}
+
+.project h1 {
+  padding-bottom: 9px !important;
+}
+
+.project p {
+  font-size: 10px;
+  font-weight: 100;
+}
+
+@keyframes float {
+  0% {
+    /* box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6); */
+    transform: translatey(0px);
+  }
+  50% {
+    /* box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2); */
+    transform: translatey(-10px);
+  }
+  100% {
+    /* box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6); */
+    transform: translatey(0px);
+  }
+}
+.mywork span {
+  /* transform: translatey(0px); */
+  padding: 40px;
+  animation: float 3s ease-in-out infinite;
+}
+
+.project-head {
+  padding: 20px;
+  font-family: sans-serif !important;
+  font-weight: normal;
+}
+.proj-sub {
+  font-size: 16px;
+  padding-top: 4px;
+  font-weight: 100;
+  color: #868e96 !important;
+}
+
+.proj-title {
+  font-size: 30px;
+  font-weight: 100;
 }
