@@ -29,40 +29,50 @@ window.addEventListener("load", function () {
       lineWidth: 1,
     },
   });
+  //   x, y ,  width ,  height
+
   let boxA = Matter.Bodies.rectangle(200, 100, 80, 80);
   let boxB = Matter.Bodies.rectangle(200, 100, 80, 80);
   let boxC = Matter.Bodies.rectangle(200, 100, 80, 80);
+
+  var floor = Matter.Bodies.rectangle(250, 520, 500, 80, {
+    isStatic: true,
+    render: {
+      visible: true,
+    },
+  });
+  var floor = Matter.Bodies.rectangle(250, 520, 500, 80, {
+    isStatic: true,
+    render: {
+      visible: true,
+    },
+  });
+  var floor1 = Matter.Bodies.rectangle(500, 520, 10, 1200, {
+    isStatic: true,
+    render: {
+      visible: true,
+    },
+  });
   Matter.World.add(world, [boxA, boxB, boxC, ball]);
 
-  //Add a floor
-  var floor = Matter.Bodies.rectangle(250, 520, 500, 80, {
-    isStatic: true, //An immovable object
-    render: {
-      visible: true,
-    },
-  });
-  var floor = Matter.Bodies.rectangle(250, 520, 500, 80, {
-    isStatic: true, //An immovable object
-    render: {
-      visible: true,
-    },
-  });
-
-  //   ,  ,  width ,  height
-  var floor1 = Matter.Bodies.rectangle(500, 520, 10, 1200, {
-    isStatic: true, //An immovable object
-    render: {
-      visible: true,
-    },
-  });
   var floor3 = Matter.Bodies.rectangle(0, 520, 10, 1200, {
-    isStatic: true, //An immovable object
+    isStatic: true,
     render: {
       visible: true,
     },
   });
+  var stack = Matter.Bodies.stack(500, 100, 5, 3, 0, 0, function (x, y) {
+    return Matter.Bodies.rectangle(x, y, 40, 20, {
+      render: {
+        fillStyle: "orange",
+        strokeStyle: "black",
+      },
+    });
+  });
 
-  Matter.World.add(world, [floor, floor1, floor3]);
+  var lsta;
+
+  Matter.World.add(world, [floor, floor1, floor3, stack]);
 
   //Make interactive
   var mouseConstraint = Matter.MouseConstraint.create(engine, {
