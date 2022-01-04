@@ -45,14 +45,59 @@
   border-style: ridge;
   border-width: 4px;
   box-shadow: 9px 6px 12px 1px;
-  /* border-color: linear-gradient(
-    rgb(255, 94, 0),
-    rgb(168, 74, 19),
-    rgb(128, 66, 30)
-  ); */
 }
-.rectangle :hover {
+.rectangle > div:hover {
   transform: rotateX(8deg);
+}
+
+#frame_1 > div {
+  background: url("../images/gwoc.jpg");
+  background-size: 100%;
+}
+#frame_4 > div {
+  background: url("../images/hacktober.png");
+  background-size: 100%;
+}
+#frame_5 > div {
+  background: url("../images/gdsc.png");
+  background-size: 100%;
+}
+
+#frame_12 > div {
+  background: url("../images/coreteam.png") white;
+  background-size: 100%;
+
+  background-repeat: no-repeat, no-repeat;
+  background-position: center center;
+}
+
+#frame_8 > div {
+  background: url("../images/solutionchallenge.png") white;
+  background-size: 100%;
+  background-repeat: no-repeat, no-repeat;
+  background-position: center center;
+}
+#frame_6 > div {
+  background: url("../images/devbond200.png") white;
+  background-size: 100%;
+}
+#frame_7 > div {
+  background: url("../images/pythonandml.png") white;
+  background-size: 100%;
+  background-repeat: no-repeat, no-repeat;
+  background-position: center center;
+}
+#frame_11 > div {
+  background: url("../images/imagineAcademy.png") white;
+  background-size: 100%;
+  background-repeat: no-repeat, no-repeat;
+  background-position: center center;
+}
+#frame_9 > div {
+  background: url("../images/kaggel.png") white;
+  background-size: 100%;
+  background-repeat: no-repeat, no-repeat;
+  background-position: center center;
 }
 
 #frame_1 > div,
@@ -71,4 +116,17 @@
 #frame_12 > div,
 #frame_13 > div {
   border-color: rgb(87, 19, 214);
+}
+
+.showcase {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
 }
