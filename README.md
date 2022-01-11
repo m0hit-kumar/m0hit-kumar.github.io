@@ -1,9 +1,16 @@
 # Mohit Kumar Portfolio ![GitHub forks](https://img.shields.io/github/forks/m0hit-kumar/m0hit-kumar.github.io?label=Contribute&style=for-the-badge) ![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/m0hit-kumar/m0hit-kumar.github.io?style=for-the-badge) ![GitHub issues](https://img.shields.io/github/issues/m0hit-kumar/m0hit-kumar.github.io?style=for-the-badge)
 
 ## Languages Used
-![](https://img.shields.io/static/v1?label=HTML&message=V5&color=<COLOR>)
+<p>
+  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+</p>
 
-    # This is not the full structured of the project that is shown in repo its the files that are curently in production or are           working other files in the repo are files to test design or are system generated files. 
+## Project Structure
+
+    # This is not the full structured of the project that is shown in repo its the files that are curently in production or are           
+    # working other files in the repo are files to test design or are system generated files. 
     .
     ├── CSS                                  # Files to Style the site
     |    ├── canvas.css                     
@@ -25,3 +32,10 @@
 ![image](https://user-images.githubusercontent.com/60257288/148896151-881abd2a-9474-4252-9fd1-65a55d94e604.png)
 
 
+
+# How to Contribute
+ - Fork the Repo
+ - Clone the repo / download the repo
+ - Push changes after editing 
+ - Commit the changes.
+ - Make a Pull Request
