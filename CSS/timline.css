@@ -48,7 +48,7 @@ body .edu {
 
 .edu-card:hover {
   animation: none;
-  box-shadow: 10px 10px 91px 0px rgba(193, 79, 82, 1);
+  box-shadow: 10px 10px 91px rgba(193, 79, 82, 1);
   /* background: #cb2027; */
 }
 
