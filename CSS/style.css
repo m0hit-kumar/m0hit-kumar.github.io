@@ -104,7 +104,7 @@ h1.card {
   background: #064d86;
 
   /* transform: scale(1.1, 1.1); */
-  box-shadow: 1px 10px 91px 0px rgb(240, 230, 99);
+  box-shadow: 1px 10px 91px rgb(240, 230, 99);
   /* z-index: 9999; */
   border-right: 1px solid transparent;
   border-bottom: 1px solid transparent;
