@@ -33,6 +33,7 @@
 
 
 
+
 #How to Contribute
 
 <h1>Instructions to Contribute</h1>
@@ -106,3 +107,12 @@ before you start here is something you should know:
   
   Going back to GitHub you may see a highlighted area which says "Compare and Pull Request", click that.
   This will send a pull request.
+ 
+ 
+ ## ✨ Contributors:
+ 
+ <a href="https://github.com/m0hit-kumar/m0hit-kumar.github.io/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=m0hit-kumar/m0hit-kumar.github.io" />
+</a>
+ 
+
