@@ -42,7 +42,8 @@
  
  
  
- ## Contributors:
+ ## ✨ Contributors:
+ 
  <a href="https://github.com/m0hit-kumar/m0hit-kumar.github.io/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=m0hit-kumar/m0hit-kumar.github.io" />
 </a>
