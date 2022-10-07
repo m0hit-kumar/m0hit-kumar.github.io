@@ -32,10 +32,7 @@
 ![image](https://user-images.githubusercontent.com/60257288/148896151-881abd2a-9474-4252-9fd1-65a55d94e604.png)
 
 
-
-
-#How to Contribute
-
+  
 <h1>Instructions to Contribute</h1>
 The Open source Community is awesome, to be a part of it you can start contributing and help people with their projects, here's a guide to do exactly that!
 before you start here is something you should know:
