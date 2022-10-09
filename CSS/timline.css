@@ -32,24 +32,21 @@ body .edu {
   font-weight: normal;
 }
 .edu-card {
-  animation: float 3s ease-in-out infinite;
-
   background: #fff;
   display: grid;
   width: 90%;
   height: 160px;
   text-align: left;
-  /* padding: 35px; */
   margin: 49px;
   border-radius: 8px;
   grid-template-areas: "logo details";
   grid-template-columns: 166px 1fr;
+  box-shadow: 10px 10px 25px rgb(61, 61, 61);
 }
 
 .edu-card:hover {
   animation: none;
-  box-shadow: 10px 10px 91px rgba(193, 79, 82, 1);
-  /* background: #cb2027; */
+  animation: float 3s ease-in-out infinite;
 }
 
 .edu-card:hover ~ .edu {
@@ -92,27 +89,27 @@ body .edu {
 
 .proj1 {
   grid-area: proj1;
-  background: #007bb5;
+  /* background: #007bb5; */
 }
 .proj2 {
   grid-area: proj2;
-  background: #cb2027;
+  /* background: #cb2027; */
 }
 .proj3 {
   grid-area: proj3;
-  background: black;
+  /* background: black; */
 }
 .proj4 {
   grid-area: proj4;
-  background: #3b5998;
+  /* background: #3b5998; */
 }
 .proj5 {
   grid-area: proj5;
-  background: #dd4b39;
+  /* background: #dd4b39; */
 }
 .proj6 {
   grid-area: proj6;
-  background: #125688;
+  /* background: #125688; */
 }
 
 .mywork {
@@ -129,21 +126,25 @@ body .edu {
 }
 
 .projects > div {
+  background: #020303;
   padding: 40px;
   height: 300px;
   width: 300px;
   overflow: hidden;
-  box-shadow: 4px 4px 2px 2px black;
   color: white;
   margin: 2px;
 }
 
 .project:hover {
-  transform: scale(1.1, 1.1);
-  box-shadow: 10px 10px 91px rgba(193, 79, 82, 1);
+  box-shadow: -4px 6px 6px 2px rgb(0 0 0 / 60%);
+  /* ================================== */
+  /* ==== commented box shadows ========== */
+  /* ================================== */
+  /* transform: scale(1.1, 1.1); */
+  /* box-shadow: 10px 10px 91px rgba(193, 79, 82, 1); */
   /* z-index: 9999; */
-  border-right: 1px solid transparent;
-  border-bottom: 1px solid transparent;
+  /* border-right: 1px solid transparent;
+  border-bottom: 1px solid transparent; */
   cursor: url("/github.png"), auto;
 }
 
