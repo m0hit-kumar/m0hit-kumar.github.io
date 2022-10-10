@@ -24,11 +24,8 @@
   text-align: center;
   text-decoration: none;
   margin: 18px 2px;
-  margin: 18px 1rem;
   box-shadow: 6px 5px 3px 2px black;
-  box-shadow: -5px 1px 6px -1px rgb(90 90 90);
 }
-  
 .fa-linkedin {
   background: #007bb5;
   color: white;

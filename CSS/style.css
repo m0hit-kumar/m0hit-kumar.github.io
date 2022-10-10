@@ -54,7 +54,7 @@ h1.card {
   padding-top: 20px;
 }
 
-.quote {
+quote {
   font-size: 16px;
   color: #999999;
   font-weight: 50;
@@ -62,15 +62,13 @@ h1.card {
   padding-left: 100px;
   padding-right: 100px;
 }
-.profile_heading{
-  font-size: 2rem;
-}
+
 .person {
   display: flex;
   justify-content: center;
 }
 .person div h6 {
-  font-size: 20px;
+  font-size: 10px;
   font-weight: 50;
 }
 
