@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 body {
@@ -46,15 +47,10 @@ h1.card {
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.1) 0 0 1px 2px, rgba(0, 0, 0, 0.2) 0 2px 5px 0;
 }
-.name {
-  font-family: sans-serif;
-  /* box-shadow: 10px 10px 91px 0px rgb(191, 193, 79); */
 
-  font-size: 37px;
-  padding-top: 20px;
-}
 
 .quote {
+  font-family:'Times New Roman', Times, serif;
   font-size: 16px;
   color: #999999;
   font-weight: 50;
@@ -157,4 +153,11 @@ h1.card {
 }
 .type-cursor {
   color: black;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 37px;
+  padding-top: 20px;
+  margin-bottom: 1.5rem;
 }
