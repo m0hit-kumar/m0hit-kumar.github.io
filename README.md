@@ -1,9 +1,9 @@
 # [m0hit-kumar.github.io](https://m0hit-kumar.github.io)
  ![GitHub forks](https://img.shields.io/github/forks/m0hit-kumar/m0hit-kumar.github.io?label=Forks&style=for-the-badge) 
  ![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/m0hit-kumar/m0hit-kumar.github.io?style=for-the-badge) ![GitHub issues](https://img.shields.io/github/issues/m0hit-kumar/m0hit-kumar.github.io?style=for-the-badge) ![License](https://img.shields.io/github/license/m0hit-kumar/m0hit-kumar.github.io?style=for-the-badge)
- ![Contributors](https://img.shields.io/github/contributors/m0hit-kumar/m0hit-kumar.github.io?label=Forks&style=for-the-badge)
+ ![Contributors](https://img.shields.io/github/contributors/m0hit-kumar/m0hit-kumar.github.io?label=Contributors&style=for-the-badge)
+ ![Stars](https://img.shields.io/github/stars/m0hit-kumar/m0hit-kumar.github.io?style=for-the-badge)
 
- 
 
 
  
