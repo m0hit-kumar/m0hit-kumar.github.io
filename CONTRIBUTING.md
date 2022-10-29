@@ -104,6 +104,12 @@ before you start here is something you should know:
   
   Going back to GitHub you may see a highlighted area which says "Compare and Pull Request", click that.
   This will send a pull request.
+  
+  
+    
+[![Watch the video]( https://github.com/tanisha12j/m0hit-kumar.github.io/blob/master/Screencast%20from%2029-10-22%2008_00_42%20PM%20IST.webm)]
+ 
+
  
  
  ## ✨ Contributors:
@@ -113,6 +119,5 @@ before you start here is something you should know:
 </a>
   
   
-[![Watch the video]( https://github.com/tanisha12j/m0hit-kumar.github.io/blob/master/Screencast%20from%2029-10-22%2008_00_42%20PM%20IST.webm)]
  
 
