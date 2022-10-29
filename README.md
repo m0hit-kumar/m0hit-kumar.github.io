@@ -56,6 +56,7 @@ Click to see the [Code of Conduct](https://github.com/m0hit-kumar/m0hit-kumar.gi
   <img src="https://contrib.rocks/image?repo=m0hit-kumar/m0hit-kumar.github.io" />
 </a>
 
-##Video
+  
+[![Watch the video]( https://github.com/tanisha12j/m0hit-kumar.github.io/blob/master/Screencast%20from%2029-10-22%2008_00_42%20PM%20IST.webm)]
+ 
 
-https://github.com/tanisha12j/m0hit-kumar.github.io/blob/master/Screencast%20from%2029-10-22%2008_00_42%20PM%20IST.webm
