@@ -111,15 +111,17 @@ before you start here is something you should know:
  
 
  
- 
+
+  
+  ## Watch video on how to contribute and do pull request:-
+  [Screencast from 29-10-22 08_00_42 PM IST (1).webm](https://user-images.githubusercontent.com/100759293/198842216-d2e1991e-2a76-4665-af75-861ed755db30.webm)
+  
+   
  ## ✨ Contributors:
  
  <a href="https://github.com/m0hit-kumar/m0hit-kumar.github.io/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=m0hit-kumar/m0hit-kumar.github.io" />
 </a>
-  
-  ## Watch video on how to contribute and do pull request:-
-  [Screencast from 29-10-22 08_00_42 PM IST (1).webm](https://user-images.githubusercontent.com/100759293/198842216-d2e1991e-2a76-4665-af75-861ed755db30.webm)
 
   
   
