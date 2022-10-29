@@ -48,10 +48,10 @@ Click to see the [Code of Conduct](https://github.com/m0hit-kumar/m0hit-kumar.gi
 
 
 <br>
+## Watch video on how to contribute and do pull request:-
 
-  
-[![Watch the video]( https://github.com/tanisha12j/m0hit-kumar.github.io/blob/master/Screencast%20from%2029-10-22%2008_00_42%20PM%20IST.webm)]
- 
+  [Screencast from 29-10-22 08_00_42 PM IST (1).webm](https://user-images.githubusercontent.com/100759293/198842345-fd2cd458-4a43-4a74-9e20-286e60c195cf.webm)
+
 
 
 
