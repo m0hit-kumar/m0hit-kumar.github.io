@@ -49,9 +49,19 @@ Click to see the [Code of Conduct](https://github.com/m0hit-kumar/m0hit-kumar.gi
 
 <br>
 
+## Watch video on how to contribute and do pull request:-
+
+  [Screencast from 29-10-22 08_00_42 PM IST (1).webm](https://user-images.githubusercontent.com/100759293/198842345-fd2cd458-4a43-4a74-9e20-286e60c195cf.webm)
+
+<br>
+
 
 ## Contributors ✨
 
 <a href="https://github.com/m0hit-kumar/m0hit-kumar.github.io/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=m0hit-kumar/m0hit-kumar.github.io" />
 </a>
+
+  
+ 
+
