@@ -1,348 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohit Kumar — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,600;1,400&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="CSS/style.css" />
+</head>
+<body>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portfolio | Mohit Kumar</title>
-        <meta name="description"
-            content="This sites blong to mohit kumar this is mohit kumar porfolio site create dby mohit kumar .">
-        <meta name="keywords"
-            content="mohit kumar, mohit kumar portfolio, github portfolio site, mohit porfolio, mohit porfolio site, mohit kumar github portfolio, host portfolio on github, portfolio site, best portfolio site, portfolio site github, portfolio site template, mohit,  portfolio site example SEO, search engine optimization">
-        <link rel="stylesheet" href="CSS/style.css">
-        <link rel="stylesheet" href="CSS/timline.css">
-        <link rel="stylesheet" href="CSS/social.css">
-        <link rel="stylesheet" href="CSS/canvas.css">
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Navigation buttons -->
+  <div class="nav-controls">
+    <button id="prev-btn" aria-label="Previous page">&#9664; Prev</button>
+    <span id="page-indicator">Page 1</span>
+    <button id="next-btn" aria-label="Next page">Next &#9654;</button>
+  </div>
 
+  <!-- Book container -->
+  <div id="book-wrapper">
+    <div id="book">
 
-    </head>
-
-    <body>
-        <div class="pages">
-            <div class="row">
-                <div class="column items">
-                    <h1 class="card" onclick="openTab('tab','about')">About</h1>
-                    <h1 class="card" onclick="openTab('tab','edu')">Education<h1>
-                            <h1 class="card" onclick="openTab('tab','mywork')">MY Work</h1>
-                            <h1 class="card" onclick="openTab('tab','contact')">Contact</h1>
-                </div>
-
-                <div class="container">
-
-                    <section class="column  tab about">
-
-                        <h1 class="name">Mohit Kumar
-
-                        </h1>
-                        <h1>
-                            <a href="" class="subtitle typewriter typewrite" data-period="2000"
-                                data-type='[ "A Developer", "A Tech Enthusiast","A Free Soul" ]'>
-                            </a>
-                        </h1>
-                        <br>
-
-                        <quote class="quote">"A soul tangeled with passion and responsibities figuring out how to
-                            mangage
-                            its own shit,
-                            trying to make things work for him but yeah sometimes inspite of his intention things goes
-                            wrong.. but a nice person although."
-                        </quote>
-                        <br>
-                        <h4>Profile Info</h4>
-                        <div class="seprater"></div>
-                        <br>
-                        <div>
-                            <div class="person">
-                                <div>
-                                    <h6>Name </h6>
-                                    <h6>Birthday </h6>
-                                    <h6>Country </h6>
-                                    <h6>City </h6>
-                                </div>
-
-                                <div>
-                                    <h6>: Mohit Kumar</h6>
-                                    <h6>: 1Jan 2001</h6>
-                                    <h6>: India</h6>
-                                    <h6>: Ambala</h6>
-
-
-                                </div>
-                            </div>
-
-                        </div>
-                        <br>
-                        <h4>Contact Info</h4>
-                        <div class="seprater"></div>
-                        <br>
-
-                        <div class="social">
-                            <a href="https://github.com/m0hit-kumar" class="fa fa-github"></a>
-                            <a href="https://www.linkedin.com/in/mohit-kumar-profile/" class="fa fa-linkedin"></a>
-                            <a href="https://www.instagram.com/mohitkumar.buzz/" class="fa fa-instagram"></a>
-                            <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=mohitkumar11725@gmail.com"
-                                class="fa fa-google"></a>
-                        </div>
-
-                    </section>
-
-                    <section class="column tab edu hide">
-                        <div class="heading">Education</div>
-                        <quote class="subtitle">"The ultimate purpose of education is to learn how to find and see the
-                            beauty of creation so that you may feel the joy of life."</quote>
-                        <div class="qual">
-                            <div class="edu-card">
-                                <img src="images/mmdu.png" class="logo"></img>
-                                <div class="edu-details">
-                                    <h1 class="title">Maharishi Markandeshwar (Deemed to be) University
-                                    </h1>
-                                    <h1 class="subtitle"> Mullana, Haryana
-                                        (Aug 2019 – Present)
-
-                                    </h1>
-                                    <h1 class="sub"> B. Tech (Computer Science & Engineering) </h1>
-                                </div>
-                            </div>
-                            <div class="edu-card">
-                                <img src="images/aps_logo.png" class="logo"></img>
-                                <div class="edu-details">
-                                    <h1 class="title">Army Public School
-                                    </h1>
-                                    <h1 class="subtitle"> Bathinda Cantt, Punjab
-                                        (2019)
-                                    </h1>
-                                    <h1 class="sub"> 12th Board | CBSE | 80.2 %
-                                    </h1>
-                                </div>
-                            </div>
-                            <div class="edu-card">
-                                <img src="images/aps_logo.png" class="logo"></img>
-                                <div class="edu-details">
-                                    <h1 class="title">Army Public School
-                                    </h1>
-                                    <h1 class="subtitle"> Bathinda Cantt, Punjab
-                                        (2017)
-                                    </h1>
-                                    <h1 class="sub"> 10th Board | CBSE | 10 CGPA
-                                    </h1>
-                                </div>
-                            </div>
-
-                        </div>
-                    </section>
-
-                    <section class="column tab mywork hide">
-
-
-                        <div class="project-head">
-                            <h1 class="proj-title">Projects that I worked on and working
-                            </h1>
-                            <h1 class="proj-sub">CRAZY FULL STACK DEVELOPER WHO WANT TO EXPLORE EVERY TECH STACK
-
-                            </h1>
-                        </div>
-
-                        <div class="projects">
-
-                            <div class="project proj1">
-                                <img src="images/Green_earth.png" style="height:50%; width:70%"></img>
-                                <h1>Green Earth App</h1>
-                                <p>A flutter app to help easy waste managment</p>
-
-                            </div>
-                            <div class="project proj2">
-                                <img src="images/OPP.svg" style="height:50%; width:50%"></img>
-                                <h1>Online Placement Portal</h1>
-                                <p> OPP is a portal design to help CPC(Central Placement Cell) and smoothen overall
-                                    placement process and make other student aware of all placement procedure for
-                                    future.
-                                </p>
-                            </div>
-                            <div class="project proj3">
-                                <img src="images/office.svg" style="height:50%; width:50%"></img>
-                                <h1>Office Attendance System</h1>
-                                <p> Implementing modern technology to remove old-style attendance system of offices in
-                                    government offices. With the help of the Python famous GUI library Tkinter.</p>
-
-                            </div>
-                            <div class="project proj4">
-                                <img src="images/portfolio.svg" style="height:50%; width:50%"></img>
-                                <h1>Portfolio Site</h1>
-                                <p> OPP is a portal design to help CPC(Central Placement Cell) and smoothen overall
-                                    placement process and make other student aware of all placement procedure for
-                                    future.
-                                </p>
-                            </div>
-                            <div class="project proj5">
-                                <h1>0</h1>
-
-                            </div>
-                            <div class="project proj6">
-                                <h1>0</h1>
-                            </div>
-                        </div>
-
-
-                    </section>
-
-                    <section class="column tab contact hide">
-
-                        <h1>Wall of Achievement</h1>
-                        <div class="wall">
-                            <!-- <div id="wall" style="background: #000;"> -->
-                            <div id="frame_1" class="rectangle">
-                                <!-- <div style="left:276.407px;top:3px; width:120.836px;height:112.401px; background:#000"></div> -->
-                                <div style="left:276.407px;top:3px ;width:120.836px;height:112.401px;">
-                                </div>
-                            </div>
-                            <div id="frame_2" class="rectangle">
-                                <!-- <div style="left:147.027px;top:28.5457px; width:69.5723px;height:62.587px; background:#000"></div> -->
-                                <div
-                                    style=" left:147.027px;top:28.5457px;width:69.5723px;height:62.587px;background:blue">
-                                </div>
-                            </div>
-                            <div id="frame_3" class="rectangle">
-                                <!-- <div
-                                    style=" left:31.073px;top:149.888px;width:67.1311px;height:79.1917;background:#000">
-                                </div> -->
-                                <div
-                                    style=" left:31.073px;top:149.888px; width:67.1311px;height:79.1917px;background:blue">
-                                </div>
-                            </div>
-                            <div id="frame_4" class="rectangle">
-                                <!-- <div style="left:123.836px;top:117.956px; width:128.159px;height:106.015px; background:#000"></div> -->
-                                <div style=" left:120.336px;top:114.456px; width:135.159px;height:113.015px;">
-                                </div>
-                            </div>
-                            <div id="frame_5" class="rectangle">
-                                <!-- <div style=" left:287.392px;top:143.501px; width:256.319px;height:183.929px; background:#000"></div> -->
-                                <div style=" left:287.392px;top:143.501px; width:256.319px;height:183.929px;">
-                                </div>
-                            </div>
-                            <div id="frame_6" class="rectangle">
-                                <!-- <div style=" left:577.887px;top:47.705px;width:131.821px;height:169.879px;background:#000"></div> -->
-                                <div style=" left:572.387px;top:42.205px;width:142.821px;height:180.879px;">
-                                </div>
-                            </div>
-                            <div id="frame_7" class="rectangle">
-                                <!-- <div style=" left:732.899px;top:149.888px;width:89.1013px;height:76.6372px;background:#000"></div> -->
-                                <div style=" left:730.899px;top:147.888px;width:93.1013px;height:80.6372px;">
-                                </div>
-                            </div>
-                            <div id="frame_8" class="rectangle">
-                                <!-- <div style=" left:569.343px;top:254.625px;width:181.864px;height:130.283px;background:#000"></div> -->
-                                <div style=" left:565.843px;top:251.125px;width:188.864px;height:137.283px;">
-                                </div>
-                            </div>
-                            <div id="frame_9" class="rectangle">
-                                <!-- <div style=" left:308.142px;top:345.313px;width:84.2191px;height:90.6873px;background:#000"></div> -->
-                                <div style="
-                                     left:285.142px;top:345.313px;width: 126.2191px;height:90.6873px;">
-                                </div>
-                            </div>
-                            <div id="frame_10" class="rectangle">
-                                <!-- <div style=" left:435.08px;top:344.035px;width:85.4396px;height:89.41px;background:#000"></div> -->
-                                <div
-                                    style=" left:435.08px;top:344.035px;width:85.4396px;height:89.41px;background:blue">
-                                </div>
-                            </div>
-                            <div id="frame_11" class="rectangle">
-                                <!-- <div style=" left:138.483px;top:250.794px;width:122.057px;height:160.938px;background:#000"></div> -->
-                                <div style=" left:138.483px;top:250.794px;width:122.057px;height:160.938px;">
-                                </div>
-                            </div>
-                            <div id="frame_12" class="rectangle">
-                                <!-- <div style=" left:3px;top:248.239px;width:111.072px;height:89.41px;background:#000"></div> -->
-                                <div style=" left:3px;top:248.239px;width:111.072px;height:89.41px;">
-                                </div>
-                            </div>
-                            <div id="frame_13" class="rectangle">
-                                <!-- <div style=" left:439.963px;top:15.7729px;width:84.2191px;height:102.183px;background:#000"></div> -->
-                                <div
-                                    style=" left:439.963px;top:15.7729px;width:84.2191px;height:102.183px;background:blue">
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <!-- </div> -->
-                        <!-- 
-                         
-                        <canvas id="world">
-
-
-                        </canvas> -->
-                        <!-- <div class="showcase"></div> -->
-
-
-                    </section>
-
-                </div>
-
-            </div>
+      <!-- Page 1: Front Cover -->
+      <div class="page page-cover" data-density="hard">
+        <div class="page-content cover-front">
+          <div class="cover-ornament top"></div>
+          <div class="cover-body">
+            <p class="cover-label">Portfolio</p>
+            <h1 class="cover-name">Mohit Kumar</h1>
+            <div class="cover-divider"></div>
+            <p class="cover-title">Software Engineer</p>
+            <p class="cover-tagline">Building scalable systems &amp; creative tech</p>
+          </div>
+          <div class="cover-ornament bottom"></div>
+          <p class="cover-hint">Click or drag corner to open &rarr;</p>
         </div>
-        <script>
-            var img = document.createElement("img");
-            img.src = "/images/gwoc.jpg";
+      </div>
 
-            var z = document.getElementsByClassName("showcase");
-            z.appendChild(img);
+      <!-- Page 2: About Me (left) -->
+      <div class="page">
+        <div class="page-content">
+          <h2 class="chapter-number">Chapter I</h2>
+          <h3 class="chapter-title">About Me</h3>
+          <div class="chapter-rule"></div>
+          <p>I am a backend-focused engineer with experience in building scalable systems, event-driven architectures, and high-performance APIs.</p>
+          <p>I enjoy solving complex system design problems and building impactful products.</p>
+          <p>My journey in software engineering has been driven by curiosity and a passion for clean, maintainable code that stands the test of time.</p>
+          <div class="page-number">2</div>
+        </div>
+      </div>
 
-            function showcaseHover() {
+      <!-- Page 3: Skills (right) -->
+      <div class="page">
+        <div class="page-content">
+          <h2 class="chapter-number">Chapter II</h2>
+          <h3 class="chapter-title">Skills</h3>
+          <div class="chapter-rule"></div>
+          <div class="skills-grid">
+            <div class="skill-category">
+              <h4>Languages</h4>
+              <ul>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>SQL</li>
+              </ul>
+            </div>
+            <div class="skill-category">
+              <h4>Frameworks</h4>
+              <ul>
+                <li>Django</li>
+                <li>Flask</li>
+                <li>React</li>
+              </ul>
+            </div>
+            <div class="skill-category">
+              <h4>Tools</h4>
+              <ul>
+                <li>Kafka</li>
+                <li>Docker</li>
+                <li>AWS</li>
+              </ul>
+            </div>
+          </div>
+          <div class="page-number">3</div>
+        </div>
+      </div>
 
+      <!-- Page 4: Projects 1 -->
+      <div class="page">
+        <div class="page-content">
+          <h2 class="chapter-number">Chapter III</h2>
+          <h3 class="chapter-title">Projects</h3>
+          <div class="chapter-rule"></div>
+          <div class="project-card">
+            <h4>TRMS Kafka Consumer</h4>
+            <p>A microservice that consumes Kafka events and processes logistics data in real-time.</p>
+            <div class="tech-tags">
+              <span class="tag">Python</span>
+              <span class="tag">Kafka</span>
+              <span class="tag">Docker</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <h4>MCP Server</h4>
+            <p>AI-enabled system to query structured Excel data using LLMs for intelligent data retrieval.</p>
+            <div class="tech-tags">
+              <span class="tag">Python</span>
+              <span class="tag">LLM APIs</span>
+            </div>
+          </div>
+          <div class="page-number">4</div>
+        </div>
+      </div>
 
-            }
-        </script>
+      <!-- Page 5: Experience -->
+      <div class="page">
+        <div class="page-content">
+          <h2 class="chapter-number">Chapter IV</h2>
+          <h3 class="chapter-title">Experience</h3>
+          <div class="chapter-rule"></div>
+          <div class="experience-entry">
+            <div class="exp-header">
+              <h4>Delhivery</h4>
+              <span class="exp-duration">2024 — Present</span>
+            </div>
+            <p class="exp-role">Software Engineer</p>
+            <p>Worked on backend systems, Kafka pipelines, and logistics automation. Contributed to building scalable event-driven architectures handling millions of daily events.</p>
+          </div>
+          <div class="page-number">5</div>
+        </div>
+      </div>
 
-        <script src="js/switchPages.js"></script>
-        <script src="js/timeline.js"></script>
-        <script src="js/matter.js"></script>
-        <script src="js/scripts.js"></script>
-        <!-- <script>
+      <!-- Page 6: Contact -->
+      <div class="page">
+        <div class="page-content">
+          <h2 class="chapter-number">Chapter V</h2>
+          <h3 class="chapter-title">Contact</h3>
+          <div class="chapter-rule"></div>
+          <div class="contact-list">
+            <div class="contact-item">
+              <span class="contact-icon">&#9993;</span>
+              <div>
+                <p class="contact-label">Email</p>
+                <a href="mailto:mohit@example.com">mohit@example.com</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">&#128279;</span>
+              <div>
+                <p class="contact-label">LinkedIn</p>
+                <a href="https://linkedin.com/in/mohit" target="_blank" rel="noopener">linkedin.com/in/mohit</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">&#128187;</span>
+              <div>
+                <p class="contact-label">GitHub</p>
+                <a href="https://github.com/mohit" target="_blank" rel="noopener">github.com/mohit</a>
+              </div>
+            </div>
+          </div>
+          <p class="contact-footer">Thank you for reading.<br/>Let's build something great together.</p>
+          <div class="page-number">6</div>
+        </div>
+      </div>
 
+      <!-- Page 7: Back Cover -->
+      <div class="page page-cover" data-density="hard">
+        <div class="page-content cover-back">
+          <p class="back-text">— End —</p>
+          <p class="back-sub">Mohit Kumar &middot; Portfolio 2025</p>
+        </div>
+      </div>
 
-            let Engine = Matter.Engine,
-                Render = Matter.Render,
-                Runner = Matter.Runner,
-                Bodies = Matter.Bodies,
-                Composite = Matter.Composite;
+    </div>
+  </div>
 
-            let engine = Engine.create();
-            let render = Render.create({
-                element: document.body,
-                engine: engine,
-                options: {
-                    width: window.innerWidth,
-                    height: window.innerHeight,
-                    wireframes: false,
-                },
-            });
-
-            function setup() {
-                let boxA = Bodies.rectangle(200, 100, 80, 80);
-                // let boxB = Bodies.rectangle(200, 100, 80, 80);
-                // let boxC = Bodies.rectangle(200, 100, 80, 80);
-
-                let ground = Bodies.rectangle(200, 480, 810, 60, { isStatic: true });
-
-                Composite.add(engine.world, [boxA]);
-
-                Matter.Runner.run(engine);
-                Render.run(render);
-            }
-
-            function draw() {
-
-                let circle = Bodies.circle(300, 50, 5);
-                Compostite.add(engine.world, circle);
-
-            }
-
-        </script> -->
-
-    </body>
-
+  <!-- StPageFlip library (CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/page-flip@2.0.7/dist/js/page-flip.browser.js"></script>
+  <script src="js/book.js"></script>
+</body>
 </html>
